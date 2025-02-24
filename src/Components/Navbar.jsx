@@ -4,7 +4,8 @@ const Navbar = () => {
   return (
     <nav className='flex justify-around bg-blue-900 text-white py-2'>
         <div className="logo">
-            <span className='font-bold text-xl mx-8'>TODO</span>
+            <span className='font-bold text-xl'>Task</span>
+            <span className='font-light text-xl'>Manager</span>
         </div>
       <ul className="flex gap-8 mx-9">
         <li className='cursor-pointer hover:font-bold transition-all'>Home</li>
